@@ -27,6 +27,7 @@ resource "aws_security_group" "worker_group_mgmt_two" {
       "192.168.0.0/16",
     ]
   }
+  description = "<Provide a valid description that makes it clear the usage of this security group>"
 }
 
 resource "aws_security_group" "all_worker_mgmt" {
